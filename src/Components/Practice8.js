@@ -1,24 +1,28 @@
 import React from "react";
 
-// Example life cycle method
+// Example of componentDidMount
 
-class Practice7 extends React.Component {
+class Practice8 extends React.Component {
   constructor() {
     super();
+    this.state = {
+       data: null
+    }
     console.warn("constructor");
   }
 
   componentDidMount() {
+       this.setState ({data: "updated"});
     console.warn("componentDidMount");
   }
   render() {
     console.warn("render");
     return (
       <div>
-        <h1>Life cycle method</h1>
+        <h1>componentDidMount</h1>
       </div>
     );
   }
 }
 
-export default Practice7;
+export default Practice8;

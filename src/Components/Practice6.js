@@ -24,21 +24,20 @@ import React from "react";
 // Event Handling using Functional Component
 
 function Practice6() {
-
   // function testFun(){
   //   alert("test fun!");
   // }
 
-  const testFun = () =>{
+  const testFun = () => {
     alert("test fun!");
-  }
+  };
 
-  return(
+  return (
     <div>
       <h1>Event handling in react</h1>
       <button onClick={testFun}>Click me</button>
     </div>
-  )
+  );
 }
 
 export default Practice6;

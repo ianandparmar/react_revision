@@ -6,6 +6,7 @@ import Practice4 from "./Components/Practice4";
 import Practice5 from "./Components/Practice5";
 import Practice6 from "./Components/Practice6";
 import Practice7 from "./Components/Practice7";
+import Practice8 from "./Components/Practice8";
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
         <Practice3 obj1= {{name: 'abcdef'}} /> 
         <Practice4 /> */}
         {/* <Practice5 /> */}
-        <Practice6 />
-        <Practice7 />
+        {/* <Practice6 /> */}
+        {/* <Practice7 /> */}
+        <Practice8 />
       </header>
     </div>
   );
