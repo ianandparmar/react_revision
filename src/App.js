@@ -9,13 +9,19 @@ import Practice7 from "./Components/Practice7";
 import Practice8 from "./Components/Practice8";
 import Practice9 from "./Components/Practice9";
 import Practice10 from "./Components/Practice10";
+import Practice11 from "./Components/Practice11";
+import Practice12 from "./Components/Practice12";
+import Practice13 from "./Components/Practice13";
+import Practice14 from "./Components/Practice14";
+import Practice15 from "./Components/Practice15";
+import Practice16 from "./Components/Practice16";
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {
-      toggle: true,
-    };
+    // this.state = {
+    //   toggle: true,
+    // };
   }
   render() {
     return (
@@ -41,10 +47,28 @@ class App extends React.Component {
           {/* <Practice8 /> */}
           {/* <Practice9 /> */}
 
-          {this.state.toggle ? <Practice10 /> : null}
-          <button onClick={() => { this.setState({ toggle: !this.state.toggle });}} > Delete error </button>
+          {/* {this.state.toggle ? <Practice10 /> : null}
+          <button
+            onClick={() => {
+              this.setState({ toggle: !this.state.toggle });
+            }}
+          >
+            {" "}
+            Delete error{" "}
+          </button> */}
 
-          
+          {/* <Practice11 /> */}
+
+          {/* <Practice12 /> */}
+
+          {/* <Practice13 /> */}
+
+          {/* <Practice14 /> */}
+
+          {/* <Practice15 /> */}
+
+          <Practice16 data="apply"/>
+
         </header>
       </div>
     );
