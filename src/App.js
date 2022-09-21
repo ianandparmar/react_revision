@@ -1,4 +1,10 @@
 import React from "react";
+import Home from "./PersonalRoute/Home";
+import About from "./PersonalRoute/About";
+import Projects from "./PersonalRoute/Projects";
+import Forms from "./PersonalRoute/Forms";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import Practice1 from "./Components/Practice1";
 import Practice2 from "./Components/Practice2";
 import Practice3 from "./Components/Practice3";
@@ -15,6 +21,7 @@ import Practice13 from "./Components/Practice13";
 import Practice14 from "./Components/Practice14";
 import Practice15 from "./Components/Practice15";
 import Practice16 from "./Components/Practice16";
+import Practice17 from "./Components/Practice17";
 
 class App extends React.Component {
   constructor() {
@@ -67,8 +74,28 @@ class App extends React.Component {
 
           {/* <Practice15 /> */}
 
-          <Practice16 data="apply"/>
+          {/* <Practice16 data="apply"/>  */}
 
+          {/* <Router>
+            <Link to=""> Home </Link>
+            <Link to="/about"> About </Link> 
+            <Link to="/projects"> Projects </Link>
+            <Link to="/forms"> Forms</Link>
+
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/forms" component={Forms}/>
+
+
+            <Home />
+            <Projects />
+            <About />
+
+          </Router> */}
+
+          <Practice17 />
+          
         </header>
       </div>
     );
